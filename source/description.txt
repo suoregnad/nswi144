@@ -1,0 +1,20 @@
+﻿1) ČSÚ - Volba prezidenta republiky 2018 - okrsková data
+- XML (triplifikace pomocí XSLT)
+- https://data.gov.cz/datov%C3%A1-sada?iri=https%3A%2F%2Fdata.gov.cz%2Fzdroj%2Fdatov%C3%A9-sady%2Fhttp---vdb.czso.cz-pll-eweb-package_show-id-prez2018okrsky
+- pet1.xml: obsahuje počty odevzdaných platných hlasů kandidátům a (mimo jiné) kód obce
+
+2) ČÚZK - RÚIAN csv - hierarchie prvků - stát
+- CSV (triplifikace pomocí Tarql)
+- https://data.gov.cz/datov%C3%A1-sada?iri=https%3A%2F%2Fdata.gov.cz%2Fzdroj%2Fdatov%C3%A9-sady%2Fhttps---atom.cuzk.cz-api-3-action-package_show-id-cz-00025712-cuzk_ruian-csv-hie-st_1
+- adresni-mista-vazby-cr.csv: umožňuje namapovat kód obce na kód VÚSC (kraj)
+
+3) ČÚZK - Vyšší územní samoprávné celky (nové kraje)
+- CSV (triplifikace pomocí Tarql)
+- https://www.cuzk.cz/Uvod/Produkty-a-sluzby/RUIAN/2-Poskytovani-udaju-RUIAN-ISUI-VDP/Ciselniky-ISUI/Vyssi-uzemni-prvky-a-uzemne-evidencni-jednotky.aspx
+- UI_VUSC.csv: umožňuje namapovat kód nového kraje (VÚSC) na název kraje (text)
+
+4) ČSÚ - Srovnání krajů ČR - Životní podmínky - Příjmy a vybrané ukazatele hospodařících domácností podle krajů v roce 2018
+- XLSX (triplifikace pomocí C#, vzhledem ke struktuře souboru se jeví jednodušší než uložit jako CSV a triplifikovat pomocí Tarql)
+- https://www.czso.cz/csu/czso/8-zivotni-podminky-mm3d5yivsj
+- 1908101.xlsx: obsahuje např. průměrné (hrubé a čisté) příjmy na jednoho člena domácnosti napříč jednotlivými kraji
+

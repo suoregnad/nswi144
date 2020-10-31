@@ -1,0 +1,1 @@
+tarql --encoding=windows-1250 --delimiter=semicolon ../triplifier/adresni-mista-vazby-cr.sparql ../input/adresni-mista-vazby-cr.csv > ../output/adresni-mista-vazby-cr.ttl

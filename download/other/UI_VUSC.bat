@@ -1,0 +1,1 @@
+tarql --encoding=windows-1250 --delimiter=semicolon ../triplifier/UI_VUSC.sparql ../input/UI_VUSC.csv > ../output/UI_VUSC.ttl

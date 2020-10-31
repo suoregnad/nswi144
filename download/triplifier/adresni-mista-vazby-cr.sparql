@@ -1,0 +1,39 @@
+PREFIX z: <http://www.ahoj.cz/>
+PREFIX a: <https://linked.cuzk.cz/resource/ruian/adresnimista/>
+PREFIX u: <https://linked.cuzk.cz/resource/ruian/ulice/>
+PREFIX c: <https://linked.cuzk.cz/resource/ruian/castiobce/>
+PREFIX mc: <https://linked.cuzk.cz/resource/ruian/mestskecasti/>
+PREFIX m: <https://linked.cuzk.cz/resource/ruian/mestskeobvody/>
+PREFIX s: <https://linked.cuzk.cz/resource/ruian/spravniobvody/>
+PREFIX ob: <https://linked.cuzk.cz/resource/ruian/obce/>
+PREFIX p: <https://linked.cuzk.cz/resource/ruian/pou/>
+PREFIX o: <https://linked.cuzk.cz/resource/ruian/orp/>
+PREFIX vu: <https://linked.cuzk.cz/resource/ruian/vusc/>
+PREFIX v: <https://linked.cuzk.cz/resource/ruian/vo/>
+
+CONSTRUCT {
+  ?ADM_IRI a z:adresniMisto ;
+    z:uliceKod ?ULICE_IRI;
+    z:cobceKod ?COBCE_IRI;
+    z:momcKod ?MOMC_IRI;
+    z:mopKod ?MOP_IRI;
+    z:spravObvKod ?SPRAVOBV_IRI;
+    z:obecKod ?OBEC_IRI;
+    z:pouKod ?POU_IRI;
+    z:orpKod ?ORP_IRI;
+    z:vusc ?VUSC_IRI;
+    z:voKod ?VO_IRI;
+}
+WHERE {
+  BIND (IRI(CONCAT('a:', ?ADM_KOD)) AS ?ADM_IRI)
+  BIND (IRI(CONCAT('u:', ?ULICE_KOD)) AS ?ULICE_IRI)
+  BIND (IRI(CONCAT('c:', ?COBCE_KOD)) AS ?COBCE_IRI)
+  BIND (IRI(CONCAT('mc:', ?MOMC_KOD)) AS ?MOMC_IRI)
+  BIND (IRI(CONCAT('m:', ?MOP_KOD)) AS ?MOP_IRI)
+  BIND (IRI(CONCAT('s:', ?SPRAVOBV_KOD)) AS ?SPRAVOBV_IRI)
+  BIND (IRI(CONCAT('ob:', ?OBEC_KOD)) AS ?OBEC_IRI)
+  BIND (IRI(CONCAT('p:', ?POU_KOD)) AS ?POU_IRI)
+  BIND (IRI(CONCAT('o:', ?ORP_KOD)) AS ?ORP_IRI)
+  BIND (IRI(CONCAT('vu:', ?VUSC_KOD)) AS ?VUSC_IRI)
+  BIND (IRI(CONCAT('v:', ?VO_KOD)) AS ?VO_IRI)
+}

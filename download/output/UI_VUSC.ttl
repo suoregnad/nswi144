@@ -1,0 +1,114 @@
+@prefix myprefix:  <http://www.ahoj.cz/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<https://linked.cuzk.cz/resource/ruian/vusc/19>
+        rdf:type                     <http://cedropendata.mfcr.cz/c3lod/ruian/vocabRUIAN#Vusc> ;
+        myprefix:regionSoudruznosti  <https://linked.cuzk.cz/resource/ruian/region-soudrznosti/19> ;
+        myprefix:nazev               "Hlavní město Praha" ;
+        <http://cedropendata.mfcr.cz/c3lod/ruian/vocabRUIAN#nutsLauType>  "CZ010" ;
+        myprefix:platiOd             "23.11.2016 00:00:00" ;
+        myprefix:datumVzniku         "01.01.2000 00:00:00" .
+
+<https://linked.cuzk.cz/resource/ruian/vusc/116>
+        rdf:type                     <http://cedropendata.mfcr.cz/c3lod/ruian/vocabRUIAN#Vusc> ;
+        myprefix:regionSoudruznosti  <https://linked.cuzk.cz/resource/ruian/region-soudrznosti/60> ;
+        myprefix:nazev               "Jihomoravský kraj" ;
+        <http://cedropendata.mfcr.cz/c3lod/ruian/vocabRUIAN#nutsLauType>  "CZ064" ;
+        myprefix:platiOd             "19.06.2020 00:00:00" ;
+        myprefix:datumVzniku         "01.01.2000 00:00:00" .
+
+<https://linked.cuzk.cz/resource/ruian/vusc/35>
+        rdf:type                     <http://cedropendata.mfcr.cz/c3lod/ruian/vocabRUIAN#Vusc> ;
+        myprefix:regionSoudruznosti  <https://linked.cuzk.cz/resource/ruian/region-soudrznosti/35> ;
+        myprefix:nazev               "Jihočeský kraj" ;
+        <http://cedropendata.mfcr.cz/c3lod/ruian/vocabRUIAN#nutsLauType>  "CZ031" ;
+        myprefix:platiOd             "29.07.2020 00:00:00" ;
+        myprefix:datumVzniku         "01.01.2000 00:00:00" .
+
+<https://linked.cuzk.cz/resource/ruian/vusc/51>
+        rdf:type                     <http://cedropendata.mfcr.cz/c3lod/ruian/vocabRUIAN#Vusc> ;
+        myprefix:regionSoudruznosti  <https://linked.cuzk.cz/resource/ruian/region-soudrznosti/43> ;
+        myprefix:nazev               "Karlovarský kraj" ;
+        <http://cedropendata.mfcr.cz/c3lod/ruian/vocabRUIAN#nutsLauType>  "CZ041" ;
+        myprefix:platiOd             "13.12.2019 00:00:00" ;
+        myprefix:datumVzniku         "01.01.2000 00:00:00" .
+
+<https://linked.cuzk.cz/resource/ruian/vusc/108>
+        rdf:type                     <http://cedropendata.mfcr.cz/c3lod/ruian/vocabRUIAN#Vusc> ;
+        myprefix:regionSoudruznosti  <https://linked.cuzk.cz/resource/ruian/region-soudrznosti/60> ;
+        myprefix:nazev               "Kraj Vysočina" ;
+        <http://cedropendata.mfcr.cz/c3lod/ruian/vocabRUIAN#nutsLauType>  "CZ063" ;
+        myprefix:platiOd             "19.06.2020 00:00:00" ;
+        myprefix:datumVzniku         "01.01.2000 00:00:00" .
+
+<https://linked.cuzk.cz/resource/ruian/vusc/86>
+        rdf:type                     <http://cedropendata.mfcr.cz/c3lod/ruian/vocabRUIAN#Vusc> ;
+        myprefix:regionSoudruznosti  <https://linked.cuzk.cz/resource/ruian/region-soudrznosti/51> ;
+        myprefix:nazev               "Královéhradecký kraj" ;
+        <http://cedropendata.mfcr.cz/c3lod/ruian/vocabRUIAN#nutsLauType>  "CZ052" ;
+        myprefix:platiOd             "16.06.2020 00:00:00" ;
+        myprefix:datumVzniku         "01.01.2000 00:00:00" .
+
+<https://linked.cuzk.cz/resource/ruian/vusc/78>
+        rdf:type                     <http://cedropendata.mfcr.cz/c3lod/ruian/vocabRUIAN#Vusc> ;
+        myprefix:regionSoudruznosti  <https://linked.cuzk.cz/resource/ruian/region-soudrznosti/51> ;
+        myprefix:nazev               "Liberecký kraj" ;
+        <http://cedropendata.mfcr.cz/c3lod/ruian/vocabRUIAN#nutsLauType>  "CZ051" ;
+        myprefix:platiOd             "02.05.2018 00:00:00" ;
+        myprefix:datumVzniku         "01.01.2000 00:00:00" .
+
+<https://linked.cuzk.cz/resource/ruian/vusc/132>
+        rdf:type                     <http://cedropendata.mfcr.cz/c3lod/ruian/vocabRUIAN#Vusc> ;
+        myprefix:regionSoudruznosti  <https://linked.cuzk.cz/resource/ruian/region-soudrznosti/86> ;
+        myprefix:nazev               "Moravskoslezský kraj" ;
+        <http://cedropendata.mfcr.cz/c3lod/ruian/vocabRUIAN#nutsLauType>  "CZ080" ;
+        myprefix:platiOd             "17.06.2019 00:00:00" ;
+        myprefix:datumVzniku         "01.01.2000 00:00:00" .
+
+<https://linked.cuzk.cz/resource/ruian/vusc/124>
+        rdf:type                     <http://cedropendata.mfcr.cz/c3lod/ruian/vocabRUIAN#Vusc> ;
+        myprefix:regionSoudruznosti  <https://linked.cuzk.cz/resource/ruian/region-soudrznosti/78> ;
+        myprefix:nazev               "Olomoucký kraj" ;
+        <http://cedropendata.mfcr.cz/c3lod/ruian/vocabRUIAN#nutsLauType>  "CZ071" ;
+        myprefix:platiOd             "17.06.2019 00:00:00" ;
+        myprefix:datumVzniku         "01.01.2000 00:00:00" .
+
+<https://linked.cuzk.cz/resource/ruian/vusc/94>
+        rdf:type                     <http://cedropendata.mfcr.cz/c3lod/ruian/vocabRUIAN#Vusc> ;
+        myprefix:regionSoudruznosti  <https://linked.cuzk.cz/resource/ruian/region-soudrznosti/51> ;
+        myprefix:nazev               "Pardubický kraj" ;
+        <http://cedropendata.mfcr.cz/c3lod/ruian/vocabRUIAN#nutsLauType>  "CZ053" ;
+        myprefix:platiOd             "16.06.2020 00:00:00" ;
+        myprefix:datumVzniku         "01.01.2000 00:00:00" .
+
+<https://linked.cuzk.cz/resource/ruian/vusc/43>
+        rdf:type                     <http://cedropendata.mfcr.cz/c3lod/ruian/vocabRUIAN#Vusc> ;
+        myprefix:regionSoudruznosti  <https://linked.cuzk.cz/resource/ruian/region-soudrznosti/35> ;
+        myprefix:nazev               "Plzeňský kraj" ;
+        <http://cedropendata.mfcr.cz/c3lod/ruian/vocabRUIAN#nutsLauType>  "CZ032" ;
+        myprefix:platiOd             "12.12.2019 00:00:00" ;
+        myprefix:datumVzniku         "01.01.2000 00:00:00" .
+
+<https://linked.cuzk.cz/resource/ruian/vusc/27>
+        rdf:type                     <http://cedropendata.mfcr.cz/c3lod/ruian/vocabRUIAN#Vusc> ;
+        myprefix:regionSoudruznosti  <https://linked.cuzk.cz/resource/ruian/region-soudrznosti/27> ;
+        myprefix:nazev               "Středočeský kraj" ;
+        <http://cedropendata.mfcr.cz/c3lod/ruian/vocabRUIAN#nutsLauType>  "CZ020" ;
+        myprefix:platiOd             "06.10.2020 00:00:00" ;
+        myprefix:datumVzniku         "01.01.2000 00:00:00" .
+
+<https://linked.cuzk.cz/resource/ruian/vusc/141>
+        rdf:type                     <http://cedropendata.mfcr.cz/c3lod/ruian/vocabRUIAN#Vusc> ;
+        myprefix:regionSoudruznosti  <https://linked.cuzk.cz/resource/ruian/region-soudrznosti/78> ;
+        myprefix:nazev               "Zlínský kraj" ;
+        <http://cedropendata.mfcr.cz/c3lod/ruian/vocabRUIAN#nutsLauType>  "CZ072" ;
+        myprefix:platiOd             "14.03.2019 00:00:00" ;
+        myprefix:datumVzniku         "01.01.2000 00:00:00" .
+
+<https://linked.cuzk.cz/resource/ruian/vusc/60>
+        rdf:type                     <http://cedropendata.mfcr.cz/c3lod/ruian/vocabRUIAN#Vusc> ;
+        myprefix:regionSoudruznosti  <https://linked.cuzk.cz/resource/ruian/region-soudrznosti/43> ;
+        myprefix:nazev               "Ústecký kraj" ;
+        <http://cedropendata.mfcr.cz/c3lod/ruian/vocabRUIAN#nutsLauType>  "CZ042" ;
+        myprefix:platiOd             "06.10.2020 00:00:00" ;
+        myprefix:datumVzniku         "01.01.2000 00:00:00" .

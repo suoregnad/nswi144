@@ -1,0 +1,15 @@
+PREFIX myprefix: <http://www.ahoj.cz/>
+
+CONSTRUCT {
+  ?IRI a <http://cedropendata.mfcr.cz/c3lod/ruian/vocabRUIAN#Vusc> ;
+    myprefix:regionSoudruznosti ?regSoudrWithUrl;
+    myprefix:nazev ?NAZEV;
+    <http://cedropendata.mfcr.cz/c3lod/ruian/vocabRUIAN#nutsLauType> ?NUTS_LAU;
+    myprefix:platiOd ?PLATI_OD;
+    myprefix:platiDo ?PLATI_DO;
+    myprefix:datumVzniku ?DATUM_VZNIKU;
+}
+WHERE {
+  BIND (IRI(CONCAT('https://linked.cuzk.cz/resource/ruian/vusc/', ?KOD)) AS ?IRI)
+  BIND (IRI(CONCAT('https://linked.cuzk.cz/resource/ruian/region-soudrznosti/', ?REGSOUDR_KOD)) AS ?regSoudrWithUrl)
+}
